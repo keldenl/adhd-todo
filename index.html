@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Seal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lexend+Deca&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-0: #0E1117;
+      --bg-1: #121722;
+      --bg-2: #1c2128;
+      --surface: #1B2230;
+      --elev: #202A3A;
+      --text-high: #F3F6FF;
+      --text-med: #B8C3DA;
+      --text-dim: #8693AD;
+      --text-invert: #0E1117;
+      --border: #283347;
+      --border-strong: #3A4963;
+      --accent: #3DE0FF;
+      --accent-weak: #84F1FF;
+      --accent-strong: #00C6E3;
+      --success: #63E6B6;
+      --warning: #FFC857;
+      --danger: #FF6B6B;
+      --info: #BCA9FF;
+      --elem-fire: #FF6A3D;
+      --elem-water: #2FD3FF;
+      --elem-earth: #6BCB77;
+      --elem-air: #8A7DFF;
+      --elem-spirit: #F7A6FF;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-0);
+      color: var(--text-med);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    #root {
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+  </style>
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Focus Seal: ADHD To-Do Art",
+  "description": "A gamified to-do list for ADHD that transforms completed tasks into unique, collectible generative art. Capture your focus, battle distractions, and turn your energy into a beautiful visual history.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
